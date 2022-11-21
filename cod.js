@@ -17,10 +17,6 @@ const ano = document.getElementById('ano');
         let m = data.getMonth() + 1;
         let a = data.getFullYear();
 
-        if (hr < 10) seg = '0' + hr;
-        if (min <  10) min = '0' + min;
-        if (seg < 10) seg = '0' + seg;
-
         horas.textContent = hr;
         minutos.textContent = min;
         segundos.textContent = seg;
@@ -28,9 +24,5 @@ const ano = document.getElementById('ano');
         dia.innerText = d;
         mes.innerText = m;
         ano.innerText = a;
-
-
-
-
     })
 })()
